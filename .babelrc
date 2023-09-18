@@ -1,0 +1,9 @@
+/**
+ * 本地全局安装
+ * @babel/node 用于编译，例如识别esm模块
+ * 使用： babel-node xx.js
+ * @babel/core 核心库 必须装
+ */
+{
+  "presets": ["@babel/preset-env"]
+}
